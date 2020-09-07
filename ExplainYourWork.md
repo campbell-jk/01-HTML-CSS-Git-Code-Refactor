@@ -11,4 +11,6 @@ It took me a while to understand exactly what refactoring code meant. From the R
 * After identifying all of the semantic html, I revised my classes and IDs and removed them in some cases
 * Then, I scrutinized the CSS by moving it into semantic order and noticing many areas that classes could be combined to reduce the amount of CSS coding. For the purpose of the activity, I decided to not delete any CSS, rather to /* comment */ it out.
 
-## Thank you for taking the time to review my coding activity. Please send any feedback to me that might help to clean up the code further.
+## Thank you for taking the time to review my coding activity. 
+
+## Please send any feedback to me that might help to clean up the code further.
