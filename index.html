@@ -29,21 +29,22 @@
     <!-- This is the only div that made sense as a div, I could not find a semantic element that better applied to it...?-->
     <div class="hero"></div>
     <main class="main-content"> <!-- Renamed for main section of page. Updated class to be a little more specific-->
-        <section class="main-content-section" class="search-engine-optimization"> <!--This is a section. Added an ID to allow the nav links to work. Also added class main-content-section to consolidate code for CSS -->
-            <img src="./assets/images/search-engine-optimization.jpg" id="search-engine-optimization" class="float-left" />
+        <section class="main-content-section" id="search-engine-optimization"> 
+            <!--This is a section. Added an ID to allow the nav links to work. Also added class main-content-section to consolidate code for CSS. As there are IDs on all of these sections, I removed the class as it was unnecessary code -->
+            <img src="./assets/images/search-engine-optimization.jpg"  class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
-        <section class="main-content-section" id="online-reputation-management" class="online-reputation-management">
+        <section class="main-content-section" id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </section>
-        <section class="main-content-section" id="social-media-marketing" class="social-media-marketing">
+        <section class="main-content-section" id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -51,7 +52,7 @@
             </p>
         </section>
     </main>
-    <aside> <!--Similar to the main above, class="benefits" was not needed here so I removed it and applied it to all sections below to help group CSS. An aside is the semantic element for this type of container. Changed all divs below to sections-->
+    <aside> <!--Similar to the main above, class="benefits" was not needed here so I removed it and applied it to all sections below to help group CSS. An aside is the semantic element for this type of container. Changed all divs below to sections -->
         <section class="benefits" class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
@@ -74,7 +75,7 @@
             </p>
         </section>
     </aside>
-    <footer> <!-- Changed the class to footer, removed the "." in CSS-->
+    <footer> <!-- Changed the class to footer, removed the "." in CSS -->
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
