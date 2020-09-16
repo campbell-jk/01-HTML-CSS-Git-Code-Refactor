@@ -32,11 +32,8 @@ header nav {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-/* Merged the code from this into the li one and it worked so it is not necessary
- header nav ul {
-  list-style-type: none;
-} */
 
+/* Consolidated and removed redundant code */
 header nav ul li {
   list-style-type: none;
   display: inline-block;
@@ -104,7 +101,7 @@ aside {
   max-width: 150px;
 }
 
-
+/* There were a lot of separate CSS selectors for elements that have the same parent. They were redundant so I added a class to them to help target all of them */
 .main-content-section {
   margin-bottom: 20px;
   padding: 50px;
@@ -114,50 +111,16 @@ aside {
   color: #ffffff;
 }
 
-/* .online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-} */
-
+/* Similarly, this is that class with styling applied to the child 'img' element */
 .main-content-section img {
   max-height: 200px;
 }
 
-/* .online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-} */
-
+/* And the 'h2's */
 .main-content-section h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
-/* .online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}*/
 
 footer {
   padding: 30px;

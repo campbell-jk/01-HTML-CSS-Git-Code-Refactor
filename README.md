@@ -1,8 +1,6 @@
-### This is where I will post notes on how I solved the activity.
+# 01-HTML-CSS-GIT-CODE-REFACTOR
 
-# Refactoring Code
-
----
+![Screenshot of final product](assets\images\01-HTML-GSS-Git-Code-Refactor-thumbnail.png?raw=true)
 
 It took me a while to understand exactly what refactoring code meant. From the ReadME, I understood that it wanted me to change all of the non-semantic elements in the html file so that they are more accessible. Here's a summary of how I made changes to improve this document.
 
