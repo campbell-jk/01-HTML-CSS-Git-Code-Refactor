@@ -1,6 +1,7 @@
 # 01-HTML-CSS-GIT-CODE-REFACTOR
 
-![Screenshot of final product](assets\images\01-HTML-GSS-Git-Code-Refactor-thumbnail.png?raw=true)
+<img class="marginauto" src="./assets\images\01-HTML-GSS-Git-Code-Refactor-thumbnail.png?raw=true>" width="600" alt="A preview of the deployed site" >
+
 
 It took me a while to understand exactly what refactoring code meant. From the ReadME, I understood that it wanted me to change all of the non-semantic elements in the html file so that they are more accessible. Here's a summary of how I made changes to improve this document.
 
